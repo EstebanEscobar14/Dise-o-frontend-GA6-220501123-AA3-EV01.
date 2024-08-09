@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MascotaIdeal - Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/base.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="container header">
+      <nav class="nav">
+        <div class="logo">
+          <h2>MascotaIdeal</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="./auth/login.html" class="nav_menu_link"
+                >Iniciar Sesion</a
+              >
+            </li>
+            <li class="nav_menu_item">
+              <a href="./auth/register.html" class="nav_menu_link"
+                >Registrarse</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Bienvenidos a <span>Mascota Ideal</span>
+              <br />
+              La mejor forma de adoptar
+            </h1>
+            <p class="info-text">
+              Sistema de gestion para la adopcion de animales
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                <a style="text-decoration: none; color: white" href="./pages/inicio.html">Ver mas</a>
+                <i class="fa-solid fa-paw"></i>
+              </button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./imgs/landingpageimg.png" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" >
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3v18l6-6h12V3H3z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Adopta un Amigo</span>
+              <p>
+                Encuentra el compañero perfecto para ti. Tenemos una amplia
+                variedad de mascotas que buscan un hogar amoroso.
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Proceso Sencillo</span>
+              <p>
+                Nuestro proceso de adopción es rápido y fácil. Te guiaremos en
+                cada paso para que puedas llevar a casa a tu nuevo amigo cuanto
+                antes.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 22s8-4 8-10V8s0-4-8-4-8 4-8 4v4c0 6 8 10 8 10z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Apoyo Continuo</span>
+              <p>
+                Ofrecemos apoyo y recursos continuos para asegurarnos de que
+                tanto tú como tu mascota tengan todo lo que necesitan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">
+          Copyright &copy; 2024. JUAN ESTEBAN ESCOBAR
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/93ef4b5c39.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
